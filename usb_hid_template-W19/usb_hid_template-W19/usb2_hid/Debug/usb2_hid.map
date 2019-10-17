@@ -1,0 +1,812 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+                              C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+                              usb_standard_request.o (__tablejump2__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+                              usb_device_task.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+endpoint_status     0x7               usb_standard_request.o
+delay_usb           0x2               usb_task.o
+usb_configuration_nb
+                    0x1               usb_standard_request.o
+data_to_transfer    0x1               usb_standard_request.o
+pbuffer             0x2               usb_standard_request.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+ .text          0x00000000       0x2c flash_drv.o
+ .data          0x00000000        0x0 flash_drv.o
+ .bss           0x00000000        0x0 flash_drv.o
+ .debug_line    0x00000000       0xbd flash_drv.o
+ .debug_info    0x00000000       0x96 flash_drv.o
+ .debug_abbrev  0x00000000       0x14 flash_drv.o
+ .debug_aranges
+                0x00000000       0x20 flash_drv.o
+ .text          0x00000000        0x0 hid_task.o
+ .data          0x00000000        0x0 hid_task.o
+ .bss           0x00000000        0x0 hid_task.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 power_drv.o
+ .data          0x00000000        0x0 power_drv.o
+ .bss           0x00000000        0x0 power_drv.o
+ .text.set_power_down_mode
+                0x00000000        0xc power_drv.o
+ .text.set_idle_mode
+                0x00000000        0xc power_drv.o
+ .text.set_adc_noise_reduction_mode
+                0x00000000        0xc power_drv.o
+ .text.set_power_save_mode
+                0x00000000        0xc power_drv.o
+ .text.set_standby_mode
+                0x00000000        0xc power_drv.o
+ .text.set_ext_standby_mode
+                0x00000000        0xc power_drv.o
+ .text.Clock_switch_external
+                0x00000000       0x26 power_drv.o
+ .text.Clock_switch_internal
+                0x00000000       0x26 power_drv.o
+ .debug_info    0x00000000      0x140 power_drv.o
+ .debug_abbrev  0x00000000       0x51 power_drv.o
+ .debug_aranges
+                0x00000000       0x58 power_drv.o
+ .debug_ranges  0x00000000       0x48 power_drv.o
+ .debug_line    0x00000000      0x1a8 power_drv.o
+ .debug_str     0x00000000      0x261 power_drv.o
+ .comment       0x00000000       0x31 power_drv.o
+ .debug_frame   0x00000000       0x94 power_drv.o
+ .text          0x00000000        0x0 scheduler.o
+ .data          0x00000000        0x0 scheduler.o
+ .bss           0x00000000        0x0 scheduler.o
+ .text.scheduler_empty_fct
+                0x00000000        0x2 scheduler.o
+ .text          0x00000000        0x0 uart_lib.o
+ .data          0x00000000        0x0 uart_lib.o
+ .bss           0x00000000        0x0 uart_lib.o
+ .text.uart_test_hit
+                0x00000000        0x8 uart_lib.o
+ .text.uart_init
+                0x00000000       0x20 uart_lib.o
+ .text.putchar  0x00000000       0x10 uart_lib.o
+ .text.uart_getchar
+                0x00000000       0x10 uart_lib.o
+ .debug_info    0x00000000      0x145 uart_lib.o
+ .debug_abbrev  0x00000000       0xb4 uart_lib.o
+ .debug_aranges
+                0x00000000       0x38 uart_lib.o
+ .debug_ranges  0x00000000       0x28 uart_lib.o
+ .debug_line    0x00000000      0x13f uart_lib.o
+ .debug_str     0x00000000      0x1f1 uart_lib.o
+ .comment       0x00000000       0x31 uart_lib.o
+ .debug_frame   0x00000000       0x54 uart_lib.o
+ .text          0x00000000        0x0 usb_descriptors.o
+ .data          0x00000000        0x0 usb_descriptors.o
+ .bss           0x00000000        0x0 usb_descriptors.o
+ .text          0x00000000        0x0 usb_device_task.o
+ .data          0x00000000        0x0 usb_device_task.o
+ .bss           0x00000000        0x0 usb_device_task.o
+ .text          0x00000000        0x0 usb_drv.o
+ .data          0x00000000        0x0 usb_drv.o
+ .bss           0x00000000        0x0 usb_drv.o
+ .text.usb_select_enpoint_interrupt
+                0x00000000       0x2a usb_drv.o
+ .text.usb_send_packet
+                0x00000000       0x38 usb_drv.o
+ .text.usb_read_packet
+                0x00000000       0x38 usb_drv.o
+ .text.usb_halt_endpoint
+                0x00000000       0x10 usb_drv.o
+ .text          0x00000000        0x0 usb_specific_request.o
+ .data          0x00000000        0x0 usb_specific_request.o
+ .bss           0x00000000        0x0 usb_specific_request.o
+ .text          0x00000000        0x0 usb_standard_request.o
+ .data          0x00000000        0x0 usb_standard_request.o
+ .bss           0x00000000        0x0 usb_standard_request.o
+ .text.usb_generate_remote_wakeup
+                0x00000000       0x32 usb_standard_request.o
+ .bss.remote_wakeup_feature
+                0x00000000        0x1 usb_standard_request.o
+ .text          0x00000000        0x0 usb_task.o
+ .data          0x00000000        0x0 usb_task.o
+ .bss           0x00000000        0x0 usb_task.o
+ .text          0x00000000        0x0 wdt_drv.o
+ .data          0x00000000        0x0 wdt_drv.o
+ .bss           0x00000000        0x0 wdt_drv.o
+ .text.wdtdrv_enable
+                0x00000000       0x32 wdt_drv.o
+ .text.wdtdrv_interrupt_enable
+                0x00000000       0x32 wdt_drv.o
+ .text.wdtdrv_interrupt_reset_enable
+                0x00000000       0x34 wdt_drv.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00010000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+LOAD flash_drv.o
+LOAD hid_task.o
+LOAD main.o
+LOAD power_drv.o
+LOAD scheduler.o
+LOAD uart_lib.o
+LOAD usb_descriptors.o
+LOAD usb_device_task.o
+LOAD usb_drv.o
+LOAD usb_specific_request.o
+LOAD usb_standard_request.o
+LOAD usb_task.o
+LOAD wdt_drv.o
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libm.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35\libat90usb162.a
+END GROUP
+                0x00010000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x10000
+                0x0000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xf48
+ *(.vectors)
+ .vectors       0x00000000       0x74 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.usb_process_request
+                0x00000074       0x18 usb_standard_request.o
+                0x0000008c                . = ALIGN (0x2)
+                0x0000008c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000008c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000008c                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.usb_hid_report_descriptor
+                0x0000008c       0x22 usb_descriptors.o
+                0x0000008c                usb_hid_report_descriptor
+ .progmem.data.usb_user_language_id
+                0x000000ae        0x4 usb_descriptors.o
+                0x000000ae                usb_user_language_id
+ .progmem.data.usb_user_product_string_descriptor
+                0x000000b2       0x20 usb_descriptors.o
+                0x000000b2                usb_user_product_string_descriptor
+ .progmem.data.usb_user_manufacturer_string_descriptor
+                0x000000d2       0x3c usb_descriptors.o
+                0x000000d2                usb_user_manufacturer_string_descriptor
+ .progmem.data.usb_conf_desc
+                0x0000010e       0x29 usb_descriptors.o
+                0x0000010e                usb_conf_desc
+ .progmem.data.usb_dev_desc
+                0x00000137       0x12 usb_descriptors.o
+                0x00000137                usb_dev_desc
+                0x0000014a                . = ALIGN (0x2)
+ *fill*         0x00000149        0x1 
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000014a                __ctors_start = .
+ *(.ctors)
+                0x0000014a                __ctors_end = .
+                0x0000014a                __dtors_start = .
+ *(.dtors)
+                0x0000014a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000014a        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+                0x0000014a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000014a        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+ *(.init2)
+ *(.init3)
+ .init3         0x00000156       0x14 main.o
+                0x00000156                __low_level_init
+ *(.init3)
+ *(.init4)
+ .init4         0x0000016a       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+                0x0000016a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000017a        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+ *(.init9)
+ *(.text)
+ .text          0x00000182        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+                0x00000182                __vector_22
+                0x00000182                __vector_28
+                0x00000182                __vector_1
+                0x00000182                __vector_24
+                0x00000182                __vector_12
+                0x00000182                __bad_interrupt
+                0x00000182                __vector_6
+                0x00000182                __vector_3
+                0x00000182                __vector_23
+                0x00000182                __vector_25
+                0x00000182                __vector_13
+                0x00000182                __vector_17
+                0x00000182                __vector_19
+                0x00000182                __vector_7
+                0x00000182                __vector_27
+                0x00000182                __vector_5
+                0x00000182                __vector_4
+                0x00000182                __vector_9
+                0x00000182                __vector_2
+                0x00000182                __vector_21
+                0x00000182                __vector_15
+                0x00000182                __vector_8
+                0x00000182                __vector_26
+                0x00000182                __vector_14
+                0x00000182                __vector_10
+                0x00000182                __vector_16
+                0x00000182                __vector_18
+                0x00000182                __vector_20
+                0x00000186                . = ALIGN (0x2)
+ *(.text.*)
+ .text.hid_task_init
+                0x00000186        0x2 hid_task.o
+                0x00000186                hid_task_init
+ .text.hid_report_out
+                0x00000188       0x92 hid_task.o
+                0x00000188                hid_report_out
+ .text.hid_report_in
+                0x0000021a       0x3c hid_task.o
+                0x0000021a                hid_report_in
+ .text.hid_task
+                0x00000256       0x12 hid_task.o
+                0x00000256                hid_task
+ .text.main     0x00000268       0x20 main.o
+                0x00000268                main
+ .text.scheduler_init
+                0x00000288        0xa scheduler.o
+                0x00000288                scheduler_init
+ .text.scheduler_tasks
+                0x00000292        0xa scheduler.o
+                0x00000292                scheduler_tasks
+ .text.scheduler
+                0x0000029c        0x8 scheduler.o
+                0x0000029c                scheduler
+ .text.usb_device_task_init
+                0x000002a4       0x12 usb_device_task.o
+                0x000002a4                usb_device_task_init
+ .text.usb_start_device
+                0x000002b6       0x46 usb_device_task.o
+                0x000002b6                usb_start_device
+ .text.usb_device_task
+                0x000002fc       0x4e usb_device_task.o
+                0x000002fc                usb_device_task
+ .text.usb_config_ep
+                0x0000034a       0x2c usb_drv.o
+                0x0000034a                usb_config_ep
+ .text.usb_init_device
+                0x00000376       0x1e usb_drv.o
+                0x00000376                usb_init_device
+ .text.usb_user_endpoint_init
+                0x00000394       0x26 usb_specific_request.o
+                0x00000394                usb_user_endpoint_init
+ .text.usb_user_interface_get
+                0x000003ba        0x4 usb_specific_request.o
+                0x000003ba                usb_user_interface_get
+ .text.usb_user_interface_reset
+                0x000003be       0x44 usb_specific_request.o
+                0x000003be                usb_user_interface_reset
+ .text.usb_user_get_descriptor
+                0x00000402       0x5a usb_specific_request.o
+                0x00000402                usb_user_get_descriptor
+ .text.hid_get_report_descriptor
+                0x0000045c      0x128 usb_specific_request.o
+                0x0000045c                hid_get_report_descriptor
+ .text.usb_hid_set_report_ouput
+                0x00000584       0x2e usb_specific_request.o
+                0x00000584                usb_hid_set_report_ouput
+ .text.usb_hid_set_idle
+                0x000005b2       0x3a usb_specific_request.o
+                0x000005b2                usb_hid_set_idle
+ .text.usb_hid_get_idle
+                0x000005ec       0x68 usb_specific_request.o
+                0x000005ec                usb_hid_get_idle
+ .text.usb_hid_set_report_feature
+                0x00000654       0x5a usb_specific_request.o
+                0x00000654                usb_hid_set_report_feature
+ .text.hid_get_hid_descriptor
+                0x000006ae      0x128 usb_specific_request.o
+                0x000006ae                hid_get_hid_descriptor
+ .text.usb_user_read_request
+                0x000007d6       0x78 usb_specific_request.o
+                0x000007d6                usb_user_read_request
+ .text.usb_process_request
+                0x0000084e      0x482 usb_standard_request.o
+                0x0000084e                usb_process_request
+ .text.usb_task_init
+                0x00000cd0        0x6 usb_task.o
+                0x00000cd0                usb_task_init
+ .text.usb_task
+                0x00000cd6        0x6 usb_task.o
+                0x00000cd6                usb_task
+ .text.usb_delay_ms
+                0x00000cdc       0x42 usb_task.o
+                0x00000cdc                usb_delay_ms
+ .text.__vector_11
+                0x00000d1e      0x1f4 usb_task.o
+                0x00000d1e                __vector_11
+ .text.wdtdrv_disable
+                0x00000f12       0x26 wdt_drv.o
+                0x00000f12                wdtdrv_disable
+ .text.libgcc   0x00000f38        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_tablejump2.o)
+                0x00000f38                __tablejump2__
+                0x00000f44                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000f44        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+                0x00000f44                _exit
+                0x00000f44                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000f44        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000f48                _etext = .
+
+.data           0x00800100        0x0 load address 0x00000f48
+                [!provide]                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x00800100                . = ALIGN (0x2)
+                0x00800100                _edata = .
+                [!provide]                PROVIDE (__data_end, .)
+
+.bss            0x00800100       0x14
+                0x00800100                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.usb_suspended
+                0x00800100        0x1 usb_device_task.o
+                0x00800100                usb_suspended
+ .bss.usb_connected
+                0x00800101        0x1 usb_device_task.o
+                0x00800101                usb_connected
+ .bss.g_u8_report_rate
+                0x00800102        0x1 usb_specific_request.o
+                0x00800102                g_u8_report_rate
+ .bss.jump_bootloader
+                0x00800103        0x1 usb_specific_request.o
+                0x00800103                jump_bootloader
+ .bss.device_status
+                0x00800104        0x1 usb_standard_request.o
+                0x00800104                device_status
+ .bss.g_usb_event
+                0x00800105        0x2 usb_task.o
+                0x00800105                g_usb_event
+ *(COMMON)
+ COMMON         0x00800107        0xb usb_standard_request.o
+                0x00800107                endpoint_status
+                0x0080010e                usb_configuration_nb
+                0x0080010f                data_to_transfer
+                0x00800110                pbuffer
+ COMMON         0x00800112        0x2 usb_task.o
+                0x00800112                delay_usb
+                0x00800114                PROVIDE (__bss_end, .)
+                0x00000f48                __data_load_start = LOADADDR (.data)
+                0x00000f48                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800114        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x00800114                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 hid_task.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 main.o
+ .comment       0x00000030       0x31 scheduler.o
+ .comment       0x00000030       0x31 usb_descriptors.o
+ .comment       0x00000030       0x31 usb_device_task.o
+ .comment       0x00000030       0x31 usb_drv.o
+ .comment       0x00000030       0x31 usb_specific_request.o
+ .comment       0x00000030       0x31 usb_standard_request.o
+ .comment       0x00000030       0x31 usb_task.o
+ .comment       0x00000030       0x31 wdt_drv.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x230
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 hid_task.o
+ .debug_aranges
+                0x00000038       0x28 main.o
+ .debug_aranges
+                0x00000060       0x38 scheduler.o
+ .debug_aranges
+                0x00000098       0x18 usb_descriptors.o
+ .debug_aranges
+                0x000000b0       0x30 usb_device_task.o
+ .debug_aranges
+                0x000000e0       0x48 usb_drv.o
+ .debug_aranges
+                0x00000128       0x70 usb_specific_request.o
+ .debug_aranges
+                0x00000198       0x28 usb_standard_request.o
+ .debug_aranges
+                0x000001c0       0x38 usb_task.o
+ .debug_aranges
+                0x000001f8       0x38 wdt_drv.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2941
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x6ba C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+ .debug_info    0x000006ba      0x155 hid_task.o
+ .debug_info    0x0000080f      0x1d4 main.o
+ .debug_info    0x000009e3      0x158 scheduler.o
+ .debug_info    0x00000b3b      0x56d usb_descriptors.o
+ .debug_info    0x000010a8      0x16a usb_device_task.o
+ .debug_info    0x00001212      0x224 usb_drv.o
+ .debug_info    0x00001436      0x837 usb_specific_request.o
+ .debug_info    0x00001c6d      0x93f usb_standard_request.o
+ .debug_info    0x000025ac      0x1ad usb_task.o
+ .debug_info    0x00002759      0x1e8 wdt_drv.o
+
+.debug_abbrev   0x00000000     0x11c7
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x65d C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+ .debug_abbrev  0x0000065d       0xed hid_task.o
+ .debug_abbrev  0x0000074a       0xfd main.o
+ .debug_abbrev  0x00000847       0x98 scheduler.o
+ .debug_abbrev  0x000008df       0xbe usb_descriptors.o
+ .debug_abbrev  0x0000099d       0xd0 usb_device_task.o
+ .debug_abbrev  0x00000a6d       0xff usb_drv.o
+ .debug_abbrev  0x00000b6c      0x20d usb_specific_request.o
+ .debug_abbrev  0x00000d79      0x245 usb_standard_request.o
+ .debug_abbrev  0x00000fbe      0x114 usb_task.o
+ .debug_abbrev  0x000010d2       0xf5 wdt_drv.o
+
+.debug_line     0x00000000     0x17b6
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x145 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+ .debug_line    0x00000145      0x1d1 hid_task.o
+ .debug_line    0x00000316      0x15e main.o
+ .debug_line    0x00000474       0xad scheduler.o
+ .debug_line    0x00000521       0x71 usb_descriptors.o
+ .debug_line    0x00000592      0x194 usb_device_task.o
+ .debug_line    0x00000726      0x1f8 usb_drv.o
+ .debug_line    0x0000091e      0x56c usb_specific_request.o
+ .debug_line    0x00000e8a      0x487 usb_standard_request.o
+ .debug_line    0x00001311      0x297 usb_task.o
+ .debug_line    0x000015a8      0x20e wdt_drv.o
+
+.debug_frame    0x00000000      0x418
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x64 hid_task.o
+ .debug_frame   0x00000064       0x34 main.o
+ .debug_frame   0x00000098       0x54 scheduler.o
+ .debug_frame   0x000000ec       0x44 usb_device_task.o
+ .debug_frame   0x00000130       0x8c usb_drv.o
+ .debug_frame   0x000001bc      0x11c usb_specific_request.o
+ .debug_frame   0x000002d8       0x50 usb_standard_request.o
+ .debug_frame   0x00000328       0x9c usb_task.o
+ .debug_frame   0x000003c4       0x54 wdt_drv.o
+
+.debug_str      0x00000000      0xe7d
+ *(.debug_str)
+ .debug_str     0x00000000      0x262 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/at90usb162/avr35/crtat90usb162.o
+ .debug_str     0x00000262      0x1da hid_task.o
+                                0x213 (size before relaxing)
+ .debug_str     0x0000043c       0xdc main.o
+                                0x287 (size before relaxing)
+ .debug_str     0x00000518       0x5b scheduler.o
+                                0x21f (size before relaxing)
+ .debug_str     0x00000573      0x3af usb_descriptors.o
+                                0x573 (size before relaxing)
+ .debug_str     0x00000922       0x99 usb_device_task.o
+                                0x259 (size before relaxing)
+ .debug_str     0x000009bb       0xba usb_drv.o
+                                0x275 (size before relaxing)
+ .debug_str     0x00000a75      0x1cd usb_specific_request.o
+                                0x69e (size before relaxing)
+ .debug_str     0x00000c42      0x17e usb_standard_request.o
+                                0x6e6 (size before relaxing)
+ .debug_str     0x00000dc0       0x33 usb_task.o
+                                0x244 (size before relaxing)
+ .debug_str     0x00000df3       0x8a wdt_drv.o
+                                0x24d (size before relaxing)
+
+.debug_loc      0x00000000      0xe25
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x80 hid_task.o
+ .debug_loc     0x00000080       0x28 main.o
+ .debug_loc     0x000000a8      0x261 usb_drv.o
+ .debug_loc     0x00000309      0x683 usb_specific_request.o
+ .debug_loc     0x0000098c      0x32c usb_standard_request.o
+ .debug_loc     0x00000cb8       0xe9 usb_task.o
+ .debug_loc     0x00000da1       0x84 wdt_drv.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x1a0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x28 hid_task.o
+ .debug_ranges  0x00000028       0x18 main.o
+ .debug_ranges  0x00000040       0x28 scheduler.o
+ .debug_ranges  0x00000068       0x20 usb_device_task.o
+ .debug_ranges  0x00000088       0x38 usb_drv.o
+ .debug_ranges  0x000000c0       0x60 usb_specific_request.o
+ .debug_ranges  0x00000120       0x30 usb_standard_request.o
+ .debug_ranges  0x00000150       0x28 usb_task.o
+ .debug_ranges  0x00000178       0x28 wdt_drv.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(usb2_hid.elf elf32-avr)
+LOAD linker stubs

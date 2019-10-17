@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rmmod relay.ko
+sleep 1
+insmod relay.ko
